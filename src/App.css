@@ -1,0 +1,671 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+/*------header-------*/
+/*------header-------*/
+/*------header-------*/
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 9999;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+  background-color: #e2edff;
+  /* padding-bottom: 50px; */
+  border-bottom: 2px solid #1f7cff;
+}
+/* .logo {
+  padding-left: 80px;
+} */
+.header-div ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.border-button {
+  border: none;
+  font-family: "Inter", sans-serif;
+  border-radius: 10px;
+  background-color: rgba(43, 89, 255, 1);
+  padding: 12px 18px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.header-div li {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+  color: rgba(18, 20, 29, 1);
+}
+/*----Hero-section-----*/
+/*----Hero-section-----*/
+/*----Hero-section-----*/
+/*----Hero-section-----*/
+/*----Hero-section-----*/
+.hero-div h2 {
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: -4px;
+  width: 50%;
+  text-align: center;
+}
+.hero-div h2:hover {
+  text-decoration: underline;
+}
+.hero-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15vh;
+  position: relative;
+}
+
+.hero-section-div {
+  width: 40%;
+  text-align: center;
+}
+.hero-section-div p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 28px;
+  color: rgba(18, 20, 29, 1);
+}
+.hero-section-input {
+  margin-top: 40px;
+  border-radius: 10px;
+  background-color: rgb(229 229 229 / 82%);
+  border: none;
+  padding: 24px 300px 24px 20px;
+  margin-bottom: 280px;
+  position: relative;
+}
+.hero-section-border-button {
+  position: absolute;
+  border: none;
+  font-family: "Inter", sans-serif;
+  border-radius: 10px;
+  background-color: rgba(43, 89, 255, 1);
+  padding: 13px 20px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  right: 436px;
+  bottom: 287px;
+}
+
+.hero-section-img1 {
+  position: absolute;
+  border-radius: 269px;
+  box-shadow: 5px 5px 200px 50px #22cc74;
+  left: 140px;
+  top: 270px;
+}
+.hero-section-img2 {
+  position: absolute;
+  width: 95px;
+  border-radius: 269px;
+  box-shadow: 5px 5px 200px 50px #228dcc;
+  right: 140px;
+  top: 150px;
+}
+.hero-section-img3 {
+  position: absolute;
+  right: 140px;
+  bottom: 0px;
+}
+/*-----Iconbg-----*/
+/*-----Iconbg-----*/
+/*-----Iconbg-----*/
+/*-----Iconbg-----*/
+/*-----Iconbg-----*/
+.iconbg {
+  width: 100%;
+  height: 472px;
+  background-color: rgba(58, 60, 64, 1);
+}
+.iconbg p {
+  text-align: center;
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -2px;
+  color: #ffff;
+  padding-top: 100px;
+}
+.iconbg p:hover {
+  text-decoration: underline;
+}
+.iconbg-div {
+  text-align: center;
+  padding-top: 70px;
+}
+/* Organize & prioritize  */
+/* Organize & prioritize  */
+/* Organize & prioritize  */
+/* Organize & prioritize  */
+.Organize {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 60px;
+}
+.Organize-img6 {
+  width: 500px;
+  height: 374px;
+  margin: 50px;
+}
+.Organize h4 {
+  color: #070f30;
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: -4px;
+  padding: 20px;
+}
+.Organize h4:hover {
+  text-decoration: underline;
+}
+.Organize-div {
+  width: 42%;
+}
+.Organize p {
+  width: 416px;
+  padding: 20px;
+}
+.Organize-para1 {
+  color: #12141d;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+.Organize-para2 {
+  color: #12141d;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+/* Always**separate  */
+/* Always**separate  */
+/* Always**separate  */
+/* Always**separate  */
+/* Always**separate  */
+.separate {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 70px;
+  padding-top: 80px;
+}
+.separate-img6 {
+  width: 500px;
+  height: 374px;
+}
+.separate h4 {
+  color: #070f30;
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: -4px;
+  padding: 20px;
+}
+.separate h4:hover {
+  text-decoration: underline;
+}
+.separate-div {
+  width: 42%;
+}
+.separate p {
+  width: 452px;
+  padding: 20px;
+}
+.separate-para1 {
+  color: #12141d;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.separate-button {
+  font-family: "Inter", sans-serif;
+  border-radius: 10px;
+  background-color: rgba(43, 89, 255, 1);
+  padding: 13px 20px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 24px;
+  border: none;
+}
+/*---easiest---*/
+/*---easiest---*/
+/*---easiest---*/
+/*---easiest---*/
+.Easiest h4 {
+  color: #070f30;
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: -4px;
+  padding: 20px;
+}
+.Easiest h4:hover {
+  text-decoration: underline;
+}
+.Easiest-img6 {
+  width: 500px;
+  height: 374px;
+  margin: 50px;
+  border-radius: 10px;
+  border: none;
+}
+
+.easiest-k {
+  display: flex;
+}
+.easiest-k h5 {
+  color: #22df7e;
+  text-align: left;
+  font-family: "Lexend Exa";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -2px;
+  padding: 20px;
+}
+.Easiest-para {
+  color: #12141d;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 76%;
+  padding: 20px;
+}
+.Easiest-para2 {
+  color: #12141d;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 204px;
+  padding-left: 20px;
+}
+.Easiest {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+/* Check all features */
+/* Check all features */
+/* Check all features */
+/* Check all features */
+/* Check all features */
+.Features {
+  padding: 80px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Features h2 {
+  padding: 20px;
+  color: #12141d;
+  text-align: center;
+  font-family: "Lexend Exa";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: -4px;
+}
+.Features h2:hover {
+  text-decoration: underline;
+}
+.Features-div {
+  display: flex;
+}
+.Features-div-img {
+  width: 27px;
+  height: 30px;
+  padding: 20px;
+}
+.Features h4 {
+  color: #12141d;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  width: 315px;
+  line-height: 24px;
+  padding: 10px;
+}
+.Features p {
+  color: var(--Black, #12141d);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 360px;
+  padding: 10px;
+}
+/* Simple & affordable pricing  */
+/* Simple & affordable pricing  */
+/* Simple & affordable pricing  */
+/* Simple & affordable pricing  */
+.Affordable h4 {
+  color: #12141d;
+  text-align: center;
+  font-family: Inter;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  width: 245px;
+  padding: 60px;
+}
+.Affordable h5 {
+  color: #12141d;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 20px;
+}
+.Affordable p {
+  color: #12141d;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 265px;
+  padding-left: 50px;
+}
+.Affordable-para {
+  color: #12141d;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 32% !important;
+  padding: 50px !important;
+}
+.Affordable-button {
+  font-family: "Inter", sans-serif;
+  padding: 15px 26px;
+  color: #12141d;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 94px;
+  border-radius: 10px;
+  border: 1px solid rgba(161, 161, 170, 0.3);
+  background: #fff;
+}
+.Affordable-button2 {
+  font-family: "Inter", sans-serif;
+  padding: 15px 26px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 94px;
+  border-radius: 10px;
+  border: none;
+  background: #2b59ff;
+}
+.Affordable-div {
+  display: flex;
+  gap: 50px;
+}
+.Affordable-div2 {
+  width: 367px;
+  height: 389px;
+  border-radius: 10px;
+  border: 2px solid #e4e4e7;
+  background: #f7f7f7d9;
+}
+.Affordable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20vh;
+}
+.Affordable h2 {
+  color: #12141d;
+  text-align: center;
+  font-family: "Lexend Exa";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 64px;
+  line-height: 52px;
+  letter-spacing: -4px;
+  width: 466px;
+}
+.Affordable h2:hover {
+  text-decoration: underline;
+}
+/* Honest reviews from our customers   */
+/* Honest reviews from our customers   */
+/* Honest reviews from our customers   */
+/* Honest reviews from our customers   */
+.Customers {
+  width: 100%;
+  height: 608px;
+  background-color: #3a3c40;
+}
+.Customers h1 {
+  width: 468px;
+  color: #fff;
+  font-family: "Lexend Exa";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: -4px;
+}
+.Customers h1:hover {
+  text-decoration: underline;
+}
+.Customers h2 {
+  color: #12141d;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
+.Customers h2:hover {
+  text-decoration: underline;
+}
+.Customers-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 75px;
+}
+.Customers-div-flex {
+  padding: 30px 20px;
+  border-radius: 10px;
+  background-color: #ffff;
+}
+.Customers-div-flex1 {
+  display: flex;
+}
+.Customers-div-para1 {
+  width: 280px;
+  color: #12141d;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  padding-top: 20px;
+}
+/* .logo-img {
+  padding: 20px;
+} */
+.Customers-div-para2 {
+  opacity: 0.7;
+  color: #12141d;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.section-buss {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.Customers-icon {
+  padding: 12px 15px;
+  border-radius: 5px;
+  background: #fff;
+}
+.Customers-icon1 {
+  padding: 12px 15px;
+  opacity: 0.3;
+  border-radius: 5px;
+  background: #fff;
+}
+.Customers-icon-div {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.Customers-div1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 120px 0px 120px;
+}
+/*----footer-----*/
+/*----footer-----*/
+/*----footer-----*/
+/*----footer-----*/
+.stract-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+  margin-top: 10vh;
+}
+.footer-header-div ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.footer-header-div li {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  line-height: 24px;
+  color: rgba(18, 20, 29, 1);
+}
+.footer-border-button {
+  border: none;
+  font-family: "Inter", sans-serif;
+  border-radius: 10px;
+  background-color: rgba(43, 89, 255, 1);
+  padding: 13px 20px;
+  margin-top: 40px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.footer-icon {
+  color: rgba(24, 24, 27, 1);
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+}
+.red {
+  color: rgba(24, 24, 27, 1);
+}
+.footer-last-div {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 110px;
+  margin-right: 110px;
+  color: rgba(82, 82, 91, 1);
+}
+.footer-div h2 {
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: -4px;
+  width: 50%;
+  text-align: center;
+}
+.footer-div h2:hover {
+  text-decoration: underline;
+}
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15vh;
+}
